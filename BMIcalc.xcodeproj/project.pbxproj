@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E533F6802428548300DF4C89 /* BMIcalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIcalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E533F6802428548300DF4C89 /* BMI計算.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI計算.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E533F6832428548300DF4C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E533F6852428548300DF4C89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E533F6872428548300DF4C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		E533F6812428548300DF4C89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E533F6802428548300DF4C89 /* BMIcalc.app */,
+				E533F6802428548300DF4C89 /* BMI計算.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = BMIcalc;
 			productName = BMIcalc;
-			productReference = E533F6802428548300DF4C89 /* BMIcalc.app */;
+			productReference = E533F6802428548300DF4C89 /* BMI計算.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -285,13 +285,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J5W3CWG3U;
 				INFOPLIST_FILE = BMIcalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazu8.BMIcalc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "BMI計算";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +303,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J5W3CWG3U;
 				INFOPLIST_FILE = BMIcalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kazu8.BMIcalc;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "BMI計算";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
